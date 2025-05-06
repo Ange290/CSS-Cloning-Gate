@@ -509,6 +509,7 @@ h2 {
   color: #333;
   text-align: left;
   margin-left: 6vw;
+  padding-bottom: 40px;
  
 }
 .icon-bold{
@@ -542,4 +543,47 @@ h2 {
   margin-left: -5vw;
   text-align: left;
   padding-left: 100px
+}
+.girl-container{
+  background-image: url(images/girl.avif);
+  height: 40vw;
+  width: 80vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top:5vw;
+  border-radius: 25px;
+  margin-left: 9vw;
+}
+.child-girl{
+  background-color: white;
+  border-radius: 15px;
+  width: 32vw;
+  height: 30vw;
+  margin-left: 5vw;
+  padding-top: 10px;
+  padding-bottom: 10vw;
+}
+.girl-h2{
+  font-family:serif;
+  font-size: 35px;
+  color:#0f1c38;
+  letter-spacing: 0.4px;
+}
+.girl-p{
+  font-family: serif;
+  font-size: 18px;
+  padding-left: 70px;
+  padding-bottom: 30px;
+}
+.girl-btn{
+  background-color: rgb(38, 38, 250);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 5vw;
+  font-weight: bold;
 }
