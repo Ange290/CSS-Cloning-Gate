@@ -376,3 +376,31 @@ h2 {
   color: #333;
   line-height: 1.5;
 }
+.on-sea {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px 90px;
+  gap: 50px; 
+}
+
+.sea-card {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.sea-card img {
+  width: 40vw; 
+  height: auto;
+  border-radius: 8px;
+}
+
+.sea-text {
+  margin-top: 8px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: rgb(12, 12, 100);
+  text-align: left;
+  font-weight: bold;
+}
