@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head-container{
+    background-color: white;
+    height: 5vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo{
+    padding-left: 80px;
+   }
+
+.menu-bar{
+    border: none;
+    
+    gap: 50px;
+   margin-left: 20vw;
+}
+a{
+    text-decoration: none;
+    color: rgb(46, 39, 39);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    padding: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.main-section{
+    background-image: url(two-sisters-home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vw;
+    width: 100%;
+    
+}
+.overlay{
+    position: absolute;
+    top:5vw;
+    left: 0;
+    height: 40vw;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+.accomodate{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    padding-left: 10vw;
+    padding-top: 20vw;
+    z-index:2;
+    position: relative;
+    letter-spacing: 1.5px;
+    padding-bottom: 30px;
+}
+.bar-center {
+    height: auto;
+    width: 80vw;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vw;
+    border-radius: 15px;
+    padding: 1vw;
+  }
+  
+  .form-bar {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .soll{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    flex: 1;
+  }
+  .date-field{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    flex: 1;
+  }
+  .guest-field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    flex: 1;
+  }
+  
+  .btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
