@@ -276,11 +276,139 @@
     <p class="girl-p">Real-time support, quick and easy registration, <br>and guests with positive feedback – with FeWo-<br>direkt, hosting feels like a vacation.</p>
     <button class="girl-btn">Advertise accommodation</button>
 </div>
-
 </div>
 
+<div class="fewo-container">
+  <h2 class="fewo-h2">What is FeWo-direkt?</h2>
+  <p class="fewo-p">FeWo-direkt is your competent partner for vacations in a <span class="few0-span"> vacation home</span> or <span class="few0-span">apartment</span> . 
+    As part of Vrbo, one of the leading online marketplaces for vacation rentals, FeWo-direkt offers 
+    you more than two million unique accommodations, including fincas, bungalows, apartments,<span class="few0-span"> cabins </span> ,
+     and even<span class="few0-span"> villas </span> . Secure payments, 24/7 support, and the Book with Confidence Guarantee make 
+     booking a breeze. The user-friendly website and numerous practical filters allow you to effortlessly
+      find your dream vacation rental within your budget. This way, you're sure to have an unforgettable 
+      vacation that's completely stress-free, from the search and booking to your stay and departure.</p>
+</div>
 
-<br><br>
+<div>
+  <h2 class="fewo-h2">Renting a holiday apartment or holiday home: These are the advantages</h2>
+  <p class="fewo-p">Families and groups in particular appreciate the advantages of vacation rentals: 
+    more space, more privacy, more amenities. You have more flexibility and freedom in your own four
+     walls than in conventional hotels and can plan your vacation freely - regardless of whether you want 
+     to go on a city break or unwind with your  <span class="few0-span"> dog</span> amidst picturesque 
+     nature. Are you looking for a cozy vacation cabin in the mountains with a washing machine
+      and<span class="few0-span"> whirlpool </span>? A<span class="few0-span"> beach house </span> on the 
+      water or a large finca in the south with<span class="few0-span"> a pool  </span>and fully
+       equipped kitchen? No problem, because vacation rentals are available in all sizes and with
+        every desired feature you could want for your next <span>family vacation</span>, adventure trip 
+        with friends, or romantic weekend.</p>
+</div>
+<h2 style="color: #0f1c38;">Popular travel destinations</h2>
+<div class="option-container">
+  <div class="option-next">
+  <select>
+    <option>Top-Reiseziele</option>
+  </select>
+</div>
+
+<div class="option-next0">
+  <select>
+    <option>Weitere Top-Reiseziele</option>
+  </select>
+</div>
+
+<div class="option-next1">
+  <select>
+    <option>Ferienhäuser</option>
+  </select>
+</div>
+
+<div class="option-next2">
+  <select>
+    <option>Villen und Ferienwohnungen</option>
+  </select>
+</div>
+
+<div class="option-next3">
+  <select>
+    <option>Urlaubsideen</option>
+  </select>
+</div>
+</div>
+
+<img src="images/logo.svg" width="120" height="50" class="last-logo">
+
+<div class="footer-container">
+<div>
+  <div class="footer-text">
+  <h2>Explore FeWo-direkt</h2>
+</div>
+<div class="footer-link">
+  <a href="#">Advertise accommodation</a><br><br>
+  <a href="#">Book with confidence</a><br><br>
+  <a href="#">Trust and security</a><br><br>
+  <a href="#">Resources for partners</a><br><br>
+  <a href="#">Holiday homes and holiday inspiration</a>
+</div>
+</div>
+<div>
+  <div class="footer-text">
+  <h2>Pursue</h2>
+</div>
+<div class="footer-link">
+  <a href="#">About Us</a><br><br>
+  <a href="#">career</a><br><br>
+  <a href="#">Affiliate Partner</a><br><br>
+  <a href="#">press</a><br><br>
+  <a href="#">General terms and condition of business</a><br><br>
+  <a href="#">Privacy Policy</a><br><br>
+  <a href="#">Cookies Statement</a><br><br>
+  <a href="#">Reporting illegal content</a><br><br>
+  <a href="#">Responsible owner</a><br><br>
+  <a href="#">Content guidelines and reporting content</a>
+</div>
+</div>
+<div>
+  <div class="footer-text">
+  <h2>The Vrbo family</h2>
+</div>
+<div class="footer-link">
+  <a href="#">Vrbo</a><br><br>
+  <a href="#">Abritel.fr</a><br><br>
+  <a href="#">FeWo-direkt.de</a><br><br>
+  <a href="#">Bookabach.co.nz</a><br><br>
+  <a href="#">Stayz.com.au</a>
+</div>
+</div>
+</div>
+
+<footer>
+  <p>&copy; 2025 HomeAway, an Expedia Group company. All rights reserved. HomeAway and the HomeAway logo
+     are trademarks or registered trademarks of HomeAway.com, Inc.</p>
+</footer>
+<br><br><br><br>
+<script>
+  let lastScrollY = window.scrollY;
+  const barCenter = document.querySelector('.bar-center');
+
+  window.addEventListener('scroll', () => {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > lastScrollY) {
       
+      barCenter.style.position = 'fixed';
+      barCenter.style.top = '0';
+      barCenter.style.left = '-1vw'; 
+      barCenter.style.right = '3vw';
+      barCenter.style.zIndex = '1000';
+    } else {
+      
+      barCenter.style.position = 'relative';
+    }
+
+    lastScrollY = currentScrollY;
+  });
+</script>
+
+
     </body>
 </html>
